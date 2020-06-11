@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="68.146191">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test scenario" time="68.146191">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[CRMPRO - CRM software for customer relationship management, sales, and support.]&gt; but was:&lt;[classic.crmpro.com]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at stepDefinition.LoginStepDefinition.title_of_the_login_page_is_Fre_CRM(LoginStepDefinition.java:27)&#13;&#10;&#9;at ✽.When title of the login page is Fre CRM(H:/eclipse/FreeCrmBDDFramework/src/main/java/Features/login.feature:6)&#13;&#10;"><![CDATA[Given User is already on login page.........................................passed
+When title of the login page is Fre CRM.....................................failed
+Then User enters "batchautomation" and "Test@12345".........................skipped
+Then user clicks on login button............................................skipped
+Then user is on home page...................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[CRMPRO - CRM software for customer relationship management, sales, and support.]> but was:<[classic.crmpro.com]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinition.LoginStepDefinition.title_of_the_login_page_is_Fre_CRM(LoginStepDefinition.java:27)
+	at ✽.When title of the login page is Fre CRM(H:/eclipse/FreeCrmBDDFramework/src/main/java/Features/login.feature:6)
+]]></failure>
+</testcase>
+</testsuite>

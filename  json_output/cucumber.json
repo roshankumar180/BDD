@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free CRM Login Test scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 68094340111,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already on login page",
+            "match": {
+              "location": "LoginStepDefinition.User_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51850505,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[CRMPRO - CRM software for customer relationship management, sales, and support.]\u003e but was:\u003c[classic.crmpro.com]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinition.LoginStepDefinition.title_of_the_login_page_is_Fre_CRM(LoginStepDefinition.java:27)\r\n\tat ✽.When title of the login page is Fre CRM(H:/eclipse/FreeCrmBDDFramework/src/main/java/Features/login.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "title of the login page is Fre CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_the_login_page_is_Fre_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User enters \"batchautomation\" and \"Test@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "batchautomation",
+                  "offset": 13
+                },
+                {
+                  "val": "Test@12345",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "H:/eclipse/FreeCrmBDDFramework/src/main/java/Features/login.feature"
+  }
+]
